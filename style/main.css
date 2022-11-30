@@ -37,7 +37,7 @@ nav > div > a {
  .navs a {  
     text-decoration: none;
     color: black;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 1rem;
     text-align: left;
 }
@@ -46,8 +46,8 @@ nav > div > a {
 .more a {
     text-decoration: none;
     color: black;
-    margin-top: 100px;
-    font-size: 1.2rem;
+    margin-top: 40px;
+    font-size: 1rem;
     text-align: left;
 }
 
