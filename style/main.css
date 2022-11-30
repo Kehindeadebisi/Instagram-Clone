@@ -126,7 +126,7 @@ nav > div > a {
 }
 
 .collections {
-    padding-left: 30rem;
+    padding-left: 10rem;
 }
 
 
@@ -150,7 +150,7 @@ nav > div > a {
 
 .add-comment {
     display: flex;
-    margin: 20px px;
+    margin: 20px 0px;
     padding: 20px;
     border: 1px solid rgb(197, 195, 195);
     gap: 30rem;
@@ -184,8 +184,8 @@ nav > div > a {
     margin-top: 1rem;
 }
 .image-wrap img {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -207,12 +207,12 @@ nav > div > a {
 }
 
 .details .name {
-    font-size: .5rem;
+    font-size: .7rem;
     font-weight: 600;
 }
 
 .details .handle {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     font-weight: 500;
     color: #545454;
 }
