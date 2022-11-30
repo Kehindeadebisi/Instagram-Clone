@@ -37,7 +37,7 @@ nav > div > a {
  .navs a {  
     text-decoration: none;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 1rem;
     text-align: left;
 }
@@ -46,7 +46,7 @@ nav > div > a {
 .more a {
     text-decoration: none;
     color: black;
-    margin-top: 40px;
+    margin-top: 70px;
     font-size: 1rem;
     text-align: left;
 }
@@ -82,7 +82,7 @@ nav > div > a {
     margin-top: 40px;
     background-color: white;
     border-radius: 15px;
-    height: 40rem;
+    height: 45rem;
     border: 1px solid rgb(221, 219, 219);
 }
 
@@ -126,7 +126,7 @@ nav > div > a {
 }
 
 .collections {
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 
@@ -152,7 +152,7 @@ nav > div > a {
     margin: 20px px;
     padding: 20px;
     border: 1px solid rgb(197, 195, 195);
-    gap: 30px;
+    gap: 40px;
     height: 3.8rem;
     align-items: center;
 }
