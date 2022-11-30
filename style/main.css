@@ -31,14 +31,14 @@ img {
 
 nav > div > a {
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
 }
 
  .navs a {  
     text-decoration: none;
     color: black;
-    margin-bottom: 40px;
-    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-size: 1rem;
     text-align: left;
 }
 
@@ -82,7 +82,7 @@ nav > div > a {
     margin-top: 40px;
     background-color: white;
     border-radius: 15px;
-    height: 55.5rem;
+    height: 50rem;
     border: 1px solid rgb(221, 219, 219);
 }
 
@@ -126,7 +126,7 @@ nav > div > a {
 }
 
 .collections {
-    padding-left: 19rem;
+    padding-left: 10rem;
 }
 
 
