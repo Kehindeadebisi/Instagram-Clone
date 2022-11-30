@@ -14,12 +14,12 @@ img {
 }
 
 .nav-bar {
-    width: 27%;
+    width: 20rem;
     height: 100vh;
     background-color: #ffffff;
     padding-left: 20px;
     border: 1px solid rgb(221, 219, 219);
-    position:sticky;
+    position:fixed;
 }
 
 .logo {
@@ -42,9 +42,6 @@ nav > div > a {
     text-align: left;
 }
 
-.fa {
-    width: 10px;
-}
 
 .more a {
     text-decoration: none;
@@ -75,16 +72,17 @@ nav > div > a {
 .feed{
     width: 100%;
     background-color: #FAFAFA;
+    padding-left: 30rem;
 }
 
 .post-wrapper {
-    width:50%;
+    width:60%;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 120px;
     margin-top: 40px;
     background-color: white;
     border-radius: 15px;
-    height: 55.7rem;
+    height: 55.5rem;
     border: 1px solid rgb(221, 219, 219);
 }
 
@@ -151,16 +149,25 @@ nav > div > a {
 
 .add-comment {
     display: flex;
-    margin: 20px 0;
-    padding: 10px;
+    margin: 20px px;
+    padding: 20px;
     border: 1px solid rgb(197, 195, 195);
-    gap: 23rem;
+    gap: 22rem;
     height: 3.8rem;
+    align-items: center;
 }
 
 .add-comment a{
     text-decoration: none;
-    
+    color: inherit
+}
+
+.comment-link {
+    color: rgb(146, 145, 145);
+}
+
+.post {
+    color: rgb(115, 115, 253);
 }
 
 .stories {
