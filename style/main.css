@@ -153,7 +153,7 @@ nav > div > a {
     margin: 20px px;
     padding: 20px;
     border: 1px solid rgb(197, 195, 195);
-    gap: 120px;
+    gap: 30rem;
     height: 3.8rem;
     align-items: center;
 }
@@ -184,8 +184,8 @@ nav > div > a {
     margin-top: 1rem;
 }
 .image-wrap img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -207,13 +207,13 @@ nav > div > a {
 }
 
 .details .name {
-    font-size: 1rem;
-    font-weight: 800;
+    font-size: .5rem;
+    font-weight: 600;
 }
 
 .details .handle {
-    font-size: 0.8rem;
-    font-weight: 800;
+    font-size: 0.5rem;
+    font-weight: 500;
     color: #545454;
 }
 
