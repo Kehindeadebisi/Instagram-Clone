@@ -1,0 +1,221 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+}
+
+.nav-bar {
+    width: 27%;
+    height: 100vh;
+    background-color: #ffffff;
+    padding-left: 20px;
+    border: 1px solid rgb(221, 219, 219);
+    position:sticky;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 50%;
+    height: 50%;
+}
+
+nav > div > a {
+    display: flex;
+    gap: 3rem;
+}
+
+ .navs a {  
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.fa {
+    width: 10px;
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+    margin-top: 100px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.profile-wrap img {
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 1px;
+    border: 2px solid grey;
+}
+
+.profile-wrap {
+    width: 10%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+.feed{
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.post-wrapper {
+    width:50%;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 15px;
+    height: 55.7rem;
+    border: 1px solid rgb(221, 219, 219);
+}
+
+.post-profile {
+    display:flex;
+    align-items: center;
+    gap:10px;
+    padding: 5px 10px;
+    border: 2px solid rgb(219, 215, 215);
+    border-radius: 5px;
+}
+
+.post-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+.post-img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon img{
+    width:40px;
+    height: 40px;
+}
+
+.icon {
+    height: 30px;
+    display: flex;
+    gap: 2rem;
+    padding: 5px;
+    margin: 5px 0;
+    align-items: center;
+}
+
+.collections {
+    padding-left: 19rem;
+}
+
+
+.likes {
+    margin: 20px;
+}
+
+.caption {
+    margin: 20px;
+}
+
+.comments {
+    margin: 20px;
+}
+
+.time {
+    margin: 20px;
+    font-size: .7rem;
+}
+
+.add-comment {
+    display: flex;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid rgb(197, 195, 195);
+    gap: 23rem;
+    height: 3.8rem;
+}
+
+.add-comment a{
+    text-decoration: none;
+    
+}
+
+.stories {
+    width: 20%;
+    padding: 1rem 1rem 0 0;
+    background-color: #FAFAFA;
+    padding-top: 40px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.image-wrap img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;    
+}
+
+.image-wrap {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 3px solid #FF3040;
+    padding: 3px;
+}
+
+.details {
+    margin-left: 0.6rem;
+}
+
+.details .name {
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.details .handle {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #545454;
+}
+
+@media screen and (max-width :800px) {
+    .stories {
+        display: none;
+    }
+    .nav-bar {
+        display: none;
+    }
+    
+}
+
