@@ -72,7 +72,7 @@ nav > div > a {
 .feed{
     width: 100%;
     background-color: #FAFAFA;
-    padding-left: 20rem;
+    padding-left: 30rem;
 }
 
 .post-wrapper {
@@ -80,10 +80,9 @@ nav > div > a {
     justify-content: center;
     margin-left: 120px;
     margin-top: 40px;
-    margin-bottom: 20px;
     background-color: white;
     border-radius: 15px;
-    height: 750px;
+    height: 710px;
     border: 1px solid rgb(221, 219, 219);
 }
 
